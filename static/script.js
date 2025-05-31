@@ -2,9 +2,8 @@
 const accountData = [
   { id: "202301", name: "김민수", email: "202301@school.edu", password: "pw1234" },
   { id: "202302", name: "이서연", email: "202302@school.edu", password: "pw2345" },
-  { id: "202303", name: "박지훈", email: "202303@school.edu", password: "pw3456" }
-  { id: "202304", name: "송시훈", email: "202303@school.edu", password: "pw3456" }
-  // 여기에 더 많은 계정 데이터를 추가할 수 있어요
+  { id: "202303", name: "박지훈", email: "202303@school.edu", password: "pw3456" },
+  { id: "202304", name: "송시훈", email: "202304@school.edu", password: "pw4567" }
 ];
 
 document.getElementById('search-form').addEventListener('submit', function(event) {
